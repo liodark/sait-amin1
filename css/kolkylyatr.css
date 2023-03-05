@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(https://i2.wp.com/files.123freevectors.com/wp-content/original/179609-plain-white-texture-background.jpg);
+    /* font-family: Arial, Helvetica, sans-serif;
+	justify-content: center;
+	font-size: 18px;
+	align-items: center;
+	min-height: 100vh; */
+}
+
+header {
+    height: 110px;
+    border-bottom: 2px solid #63578d;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+.topmenu {
+    padding-top: 30px;
+    background: url(https://i2.wp.com/files.123freevectors.com/wp-content/original/179609-plain-white-texture-background.jpg);
+}
+
+.topmenu a {
+    text-decoration: none;
+    display: block;
+    transition: .4s ease-in-out;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 16px 60px;
+    margin: 0 15px;
+    border-color: black;
+    background: black;
+}
+
+.topmenu>li>a {
+    padding: 20px;
+    color: #767676;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.topmenu li a:hover {
+    color: #3700ff;
+}
+
+
+.submenu li a {
+    border-bottom: 1px solid #efefef;
+    font-size: 20px;
+    color: #484848;
+    font-family: 'Kurale', serif;
+}
+
+.topmenu>li>a {
+    padding: 15px 20px;
+}
+
+.submenu li a {
+    padding: 10px 20px;
+    margin: 0 20px;
+}
+
+
+.topmenu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.topmenu>li {
+    position: relative;
+}
+
+.topmenu>li:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 2px;
+    height: 22px;
+    background: #3700ff;
+    top: 15px;
+    box-shadow: 4px -2px 0 #3700ff;
+    transform: rotate(30deg);
+}
+
+.topmenu>li:last-child:after {
+    background: none;
+    box-shadow: none;
+}
+
+.submenu {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 210px;
+    margin-left: -105px;
+    z-index: 5;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(.8);
+    transition: .4s ease-in-out;
+}
+
+.topmenu>li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.submenu li a {
+    text-align: center;
+    padding: 10px 0;
+    margin: 2px 10px;
+}
+
+table {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #573b8a;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding-top: 50px;
+    height: 50px 50px;
+}
+
+input[type="text"] {
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.slova_1 {
+
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px;
+	padding-top: 50px;
+}

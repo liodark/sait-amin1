@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>FoGuki</title>
+	<link rel="stylesheet" href="css/ReGisterstyle.css">
+
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul class="topmenu">
+				<li><a href="">Меню</a>
+					<ul class="submenu">
+						<li><a href="kolkylyatr.html">Калькулятор</a></li>
+						<li><a href="random.html">рандомазер</a></li>
+						<li><a href="zmeyka.html">змейка</a></li>
+					</ul>
+				</li>
+				<li><a href="logo.html">Главная</a></li>
+				<li><a href="INFO.html">Информация</a></li>
+				<li><a href="novosti.html">Новости</a>
+				<li><a href="#">Регистрация/вход</a></li>
+			</ul>
+
+		</nav>
+	</header>
+	<div class="main">
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+		<div class="signup">
+			<form>
+				<label for="chk" aria-hidden="true">зарегистрироваться</label>
+				<input type="text" name="txt" placeholder="User name" required="">
+				<input type="email" name="email" placeholder="Email" required="">
+				<input type="password" name="pswd" placeholder="Password" required="">
+				<button>зарегистрироваться</button>
+			</form>
+		</div>
+
+		<div class="login">
+			<form>
+				<label for="chk" aria-hidden="true">Войти</label>
+				<input type="email" name="email" placeholder="Email" required="">
+				<input type="password" name="pswd" placeholder="Password" required="">
+				<button>Войти</button>
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>
